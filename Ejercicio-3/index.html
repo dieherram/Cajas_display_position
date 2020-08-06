@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style media="screen" type="text/css">
+    .bloque1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .bloque2{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .nombres{
+        margin-left: 30px;
+    }
+
+    .bandera{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 30px;
+    border:solid 1px grey;
+    }
+
+    /* España */
+    .franjaroja{
+    position: absolute;
+    top: 0;
+    width: 450px;
+    height: 100px;
+    background-color: red;
+    }
+
+    .franjaamarilla{
+    position: absolute;
+    top: 100px;
+    width: 450px;
+    height: 100px;
+    background-color: yellow;    
+    }
+
+    .franjaroja2{
+    position: absolute;
+    bottom: 0;
+    width: 450px;
+    height: 100px;
+    background-color: red;
+    }
+
+    /* Emiratos Árabes */
+    .franjaverde{
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    background-color: green;
+    z-index: 0; 
+    }
+
+    .franjablanca{
+    position: absolute;
+    top: 100px;
+    width: 450px;
+    height: 100px;
+    background-color: white;
+    z-index: 0; 
+    }
+
+    .franjanegra{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height: 100px;
+    background-color: black;  
+    z-index: 0;
+    }
+
+    .franjarojae{
+    position: absolute;
+    width: 113px;
+    height: 300px;
+    background-color: red;
+    z-index: 1;
+    }
+
+    /* Dinamarca */
+    .basedinamarca{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 30px;
+    border:solid 1px grey;
+    z-index: 0;
+    }
+
+    .franjarojad1{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    z-index: 1;
+    }
+
+    .franjarojad2{
+    position: absolute;
+    bottom: 0;
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    z-index: 1;
+    }
+
+    .franjarojad3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 290px;
+    height: 140px;
+    background-color: red;
+    z-index: 1;
+    }
+
+    .franjarojad4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 290px;
+    height: 140px;
+    background-color: red;
+    z-index: 1;
+    }
+
+    /* Japón */
+    .japon{
+    position: absolute;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    top: 25%;
+    left: 33%;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+    <div class="bloque1">
+    <!-- España -->
+    <div class="bandera">
+        <div class="franjaroja"></div>
+        <div class="franjaamarilla"></div>
+        <div class="franjaroja2"></div>
+    </div>
+    <p class="nombres">España</p>
+    <!-- Emiratos Árabes -->
+    
+    <div class="bandera">
+        <div class="franjarojae"></div>
+        <div class="franjaverde"></div>
+        <div class="franjablanca"></div>
+        <div class="franjanegra"></div>
+    </div>
+    <p class="nombres">Emiratos Árabes</p>
+    </div>
+
+    <!-- Dinamarca -->
+    <div class="bloque2">
+    <div class="basedinamarca">
+        <div class="franjarojad1"></div>
+        <div class="franjarojad2"></div>
+        <div class="franjarojad3"></div>
+        <div class="franjarojad4"></div>
+    </div>
+    <p class="nombres">Dinamarca</p>
+    <!-- Japón -->
+    <div class="basedinamarca">
+        <div class="japon"></div>
+    </div>
+    <p class="nombres">Japón</p>
+    </div>
+    </div>
+</body>
+</html>
